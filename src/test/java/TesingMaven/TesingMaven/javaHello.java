@@ -6,6 +6,7 @@ public class javaHello {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hello...");
+		System.out.println("Modification for GIT check-in process...");
 
 	}
 
