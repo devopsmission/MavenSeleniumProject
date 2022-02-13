@@ -19,5 +19,7 @@ public class TestngClass {
 		System.out.println("Test3......");
 	}
 
-	
+	public void test4() {
+		System.out.println("Test4......");
+	}
 }
