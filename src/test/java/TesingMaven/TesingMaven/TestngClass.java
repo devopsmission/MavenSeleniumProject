@@ -22,6 +22,6 @@ public class TestngClass {
 	@Test
 	public void test4() {
 		System.out.println("Test4......");
-		Assert.assertFalse(false);
+		Assert.assertFalse(true);
 	}
 }
