@@ -1,5 +1,6 @@
 package TesingMaven.TesingMaven;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestngClass {
@@ -18,8 +19,9 @@ public class TestngClass {
 	public void test3() {
 		System.out.println("Test3......");
 	}
-
+	@Test
 	public void test4() {
 		System.out.println("Test4......");
+		Assert.assertFalse(false);
 	}
 }
